@@ -44,6 +44,9 @@
 ## "make mylist"
 ##
 
+# Switch Shell to Bash to avoid compilation errors
+SHELL=/bin/bash
+
 # List of targets that should not be processed by %:
 NONLISTS := check-update clean cu nc ncs note-count note-counts notecount \
 	notecounts readme pc timp make-lists
